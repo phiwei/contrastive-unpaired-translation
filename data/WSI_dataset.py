@@ -70,7 +70,7 @@ class WSIDataset(BaseDataset):
         path_df_tile_HE = os.path.join(path_dfs_base, 'df_tile_0.45366.pkl')
         path_df_tile_KI67 = os.path.join(path_dfs_base, 'df_tile_ki67_mpp_0.45366_ts_500_str_500.pkl')
 
-        self.path_base_HE = os.path.join(path_imgs_base, 'tiles_0.45366')
+        self.path_base_HE = os.path.join(path_imgs_base, 'tiles_he_mpp_0.45366_ts_500_str_500')
         self.path_base_KI67 = os.path.join(path_imgs_base, 'tiles_ki67_mpp_0.45366_ts_500_str_500')
 
         # Load dfs
